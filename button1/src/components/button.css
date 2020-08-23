@@ -1,0 +1,228 @@
+.btn {
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: all 250ms;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Size */
+.size-xs {
+  font-size: 0.75rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  padding: 0 0.5rem;
+}
+.size-sm {
+  font-size: 0.875rem;
+  height: 2rem;
+  min-width: 2rem;
+  padding: 0 0.75rem;
+}
+.size-md {
+  font-size: 1rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  padding: 0 1rem;
+}
+.size-lg {
+  font-size: 1.125rem;
+  height: 3rem;
+  min-width: 3rem;
+  padding: 0 1.5rem;
+}
+
+/* Variant Link */
+.variant-link {
+  background-color: transparent !important;
+}
+.variant-link:hover {
+  text-decoration: underline;
+}
+
+/* Color Teal */
+.variantColor-teal {
+  background-color: transparent;
+}
+/* Common Outline and Ghost */
+.variant-outline.variantColor-teal:hover,
+.variant-ghost.variantColor-teal:hover,
+.variantColor-teal:hover {
+  background-color: #e6fffa;
+}
+.variant-outline.variantColor-teal:active,
+.variant-ghost.variantColor-teal:active,
+.variantColor-teal:active {
+  background-color: #b2f5ea;
+}
+.variant-outline.variantColor-teal,
+.variant-ghost.variantColor-teal,
+.variant-link.variantColor-teal,
+.variantColor-teal {
+  color: #319795;
+}
+/* Solid */
+.variant-solid.variantColor-teal {
+  background-color: #319795;
+  color: #fff;
+}
+.variant-solid.variantColor-teal:hover {
+  background-color: #2c7a7b;
+}
+.variant-solid.variantColor-teal:active {
+  background-color: #285e61;
+}
+/* Outline */
+.variant-outline.variantColor-teal {
+  border: 1px solid #319795;
+}
+
+/* Color Green */
+.variantColor-green {
+  background-color: transparent;
+}
+/* Common Outline and Ghost */
+.variant-outline.variantColor-green:hover,
+.variant-ghost.variantColor-green:hover,
+.variantColor-green:hover {
+  background-color: #f0fff4;
+}
+.variant-outline.variantColor-green:active,
+.variant-ghost.variantColor-green:active,
+.variantColor-green:active {
+  background-color: #c6f6d5;
+}
+.variant-outline.variantColor-green,
+.variant-ghost.variantColor-green,
+.variant-link.variantColor-green,
+.variantColor-green {
+  color: #38a169;
+}
+/* Solid */
+.variant-solid.variantColor-green {
+  background-color: #38a169;
+  color: #fff;
+}
+.variant-solid.variantColor-green:hover {
+  background-color: #2f855a;
+}
+.variant-solid.variantColor-green:active {
+  background-color: #276749;
+}
+/* Outline */
+.variant-outline.variantColor-green {
+  border: 1px solid #38a169;
+}
+
+/* Color Red */
+.variantColor-red {
+  background-color: transparent;
+}
+/* Common Outline and Ghost */
+.variant-outline.variantColor-red:hover,
+.variant-ghost.variantColor-red:hover,
+.variantColor-red:hover {
+  background-color: #fff5f5;
+}
+.variant-outline.variantColor-red:active,
+.variant-ghost.variantColor-red:active,
+.variantColor-red:active {
+  background-color: #fed7d7;
+}
+.variant-outline.variantColor-red,
+.variant-ghost.variantColor-red,
+.variant-link.variantColor-red,
+.variantColor-red {
+  color: #e53e3e;
+}
+/* Solid */
+.variant-solid.variantColor-red {
+  background-color: #e53e3e;
+  color: #fff;
+}
+.variant-solid.variantColor-red:hover {
+  background-color: #c53030;
+}
+.variant-solid.variantColor-red:active {
+  background-color: #9b2c2c;
+}
+/* Outline */
+.variant-outline.variantColor-red {
+  border: 1px solid #e53e3e;
+}
+
+/* Color Blue */
+.variantColor-blue {
+  background-color: transparent;
+}
+/* Common Outline and Ghost */
+.variant-outline.variantColor-blue:hover,
+.variant-ghost.variantColor-blue:hover,
+.variantColor-blue:hover {
+  background-color: #ebf8ff;
+}
+.variant-outline.variantColor-blue:active,
+.variant-ghost.variantColor-blue:active,
+.variantColor-blue:active {
+  background-color: #ceedff;
+}
+.variant-outline.variantColor-blue,
+.variant-ghost.variantColor-blue,
+.variant-link.variantColor-blue,
+.variantColor-blue {
+  color: #3182ce;
+}
+/* Solid */
+.variant-solid.variantColor-blue {
+  background-color: #3182ce;
+  color: #fff;
+}
+.variant-solid.variantColor-blue:hover {
+  background-color: #2a69ac;
+}
+.variant-solid.variantColor-blue:active {
+  background-color: #1e4e8c;
+}
+/* Outline */
+.variant-outline.variantColor-blue {
+  border: 1px solid #3182ce;
+}
+
+/* Color Yellow */
+.variantColor-yellow {
+  background-color: transparent;
+}
+/* Common Outline and Ghost */
+.variant-outline.variantColor-yellow:hover,
+.variant-ghost.variantColor-yellow:hover,
+.variantColor-yellow:hover {
+  background-color: #fffff0;
+}
+.variant-outline.variantColor-yellow:active,
+.variant-ghost.variantColor-yellow:active,
+.variantColor-yellow:active {
+  background-color: #fefcbf;
+}
+.variant-outline.variantColor-yellow,
+.variant-ghost.variantColor-yellow,
+.variant-link.variantColor-yellow,
+.variantColor-yellow {
+  color: #d69e2e;
+}
+/* Solid */
+.variant-solid.variantColor-yellow {
+  background-color: #d69e2e;
+  color: #fff;
+}
+.variant-solid.variantColor-yellow:hover {
+  background-color: #b7791f;
+}
+.variant-solid.variantColor-yellow:active {
+  background-color: #975a16;
+}
+/* Outline */
+.variant-outline.variantColor-yellow {
+  border: 1px solid #d69e2e;
+}
